@@ -27,6 +27,9 @@ public class Mars {
         //call MarsExpedition
         new MarsExpedition();
 
+        // call FindingsList
+        new FindingsList();
+
     }
     private static boolean landingCheck(int minutesLeft) throws InterruptedException {
         for(int minute = 0; minute <= minutesLeft; minute++) {

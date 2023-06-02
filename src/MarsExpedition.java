@@ -55,7 +55,7 @@ public class MarsExpedition {
         if(response.equalsIgnoreCase("Y")){
             System.out.println("I knew you would say that. You are a team leader for a reason.");
         } else {
-            System.out.println("Too bad you are team leader. You have to go.");
+            System.out.println("Too bad you are a team leader. You have to go.");
         }
 
         System.out.println("How many people would you like to join your team?");
