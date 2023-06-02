@@ -1,3 +1,4 @@
+
 public class Mars {
     public static void main(String[] args) throws InterruptedException {
         String colonyName = "Olympus";
@@ -19,6 +20,13 @@ public class Mars {
         } else{
             System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
         }
+
+        //call GuessingGame
+        new GuessingGame();
+
+        //call MarsExpedition
+        new MarsExpedition();
+
     }
     private static boolean landingCheck(int minutesLeft) throws InterruptedException {
         for(int minute = 0; minute <= minutesLeft; minute++) {
@@ -41,4 +49,5 @@ public class Mars {
         System.out.println("Landed");
         return false;
     }
+
 }
